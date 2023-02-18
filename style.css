@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial", "Roboto", sans-serif;;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    height: 50px;
+    font-size: 12px;
+    
+}
+.apple {
+    width: 20px;
+    margin-right: -8px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.logo {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 100px;
+    width: 22px;
+    
+    
+}
+
+.menu-container {
+    color: #f5f5f7;
+    align-items: center;
+}
+
+div .menu-logo {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  color: #d3d3d3;
+
+}  
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    color: #d3d3d3;
+    align-items: center;
+    
+    
+}
+
+
+li {
+    text-decoration: none;
+    color: #d3d3d3;
+    align-items: center;
+    
+}
+
+.icon {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+    color: #fff;
+}
+
+
+.menu-2 {
+    display: flex;
+    font-size: 15px;
+    flex-direction: center;
+    background-color: #131313;
+    text-align: center;
+    color: #fff;
+}
+
+ .macbook-pro {
+    font-size: 4.5rem;
+    margin-bottom: 35px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.visao-geral {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-left: 500px;
+    margin-top: 25px;
+    align-items: center;
+    color: #999;
+    
+}
+
+
+.mod {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comprarr {
+    
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    background: #0071e3;
+    color: #fff;
+    border-radius: 980px;
+    font-size: 12px;
+    font-weight: 400;
+    
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 80px;
+    height: 30px;
+    max-width: 250px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+
+ .mac-por-que {
+    display: flex;
+    margin-top: 15px;
+    margin-top: 27.5px;  
+    color: #999;
+    font-size: 12px;
+    padding: 10px;
+}
+
+ .modelos-mac {   
+    font-size: 14px;
+    color: #999;
+    padding-left: 7rem;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.pq {
+    color: #eeee;
+
+}
+
+.esp {
+    padding-bottom: 100px;  
+    color: #999;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.macbook-prooo {
+    font-size: 20px;
+    color: #f3f3f3;
+    display: flex;
+    left: 100px;
+    font-family: 'Arial';
+    margin-top: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -170px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.menu-3 {
+    display: flex;
+    padding-top: 1px;
+    padding-left: 10px;
+    font-size: 7px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1d1d1f;
+    height: 60px;
+    
+    
+}
+
+
+.comprar {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+.comprar a {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 7px;
+    color: #3d44ff;
+}
+
+.comprar li {
+    list-style: none;
+    color: #fff;
+    background-color: #000;
+}
+
+
+section{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    padding: 150px;
+    font-size: 50px;
+    
+    
+}
+
+
+
+.img-mac {
+    margin-left: -315px;
+    width: 191%;
+    
+  
+}
+    
+.desbrava-h1 {
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.potencia {
+    font-size: 25px;
+    color: #777;
+    font-size: 25px;
+    line-height: 1.125;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.a-partir {
+    color: #dddddd;
+    align-items: center;
+    font-size: 17px;
+    margin: 40px;
+}
+
+.assistir {
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #2997ff;
+}
+.desbrava .assistir{
+    color: #06c;
+}
+ul li .assistir {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+     
+    }
+
+li a .assistir {
+    text-decoration: none;
+    list-style: none;
+    font-size: 5px;
+    color: #2997ff;
+}
+
+
+.assistir :hover {
+    list-style: none;
+    text-decoration: none;
+    color: #06c;
+    
+}
+
+.playy {
+    padding-top: -15px;
+}
+
+
+
+footer {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.matheus {
+    color: #666;
+    font-size: 15px;
+}
+
+
+.face {
+    padding-left: 10px;
+    color: #3b5998;
+}
+
+
+.git {
+    padding-left: 10px;
+    color: #171515;
+}
+
+.insta {
+    color: #ff3b3b;
+    padding-left: 10px;
+}
